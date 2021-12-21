@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.mainheader{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.centertext{
+    text-align: center;
+}
+
+body{
+    background-image: url('../images/grey.jpg');
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
