@@ -16,13 +16,26 @@
     text-align: center;
 }
 
-body{
+/* .mainbg{
     background-image: url('../images/grey.jpg');
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    height: 100vh;
+
+
+} */
+
+
+
+/* body{
+    background-image: url('../images/grey.jpg');
+    background-image: linear-gradient(rgb(180, 180, 180), rgb(206, 206, 146));
+   
+    height: 200%;
+  
+    Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
