@@ -12,27 +12,43 @@
 
    
 
-    <h1 class="mainheader">The Biography of Alan Turing</h1>
-    <img src="images/turing.jpg" alt="picture of Alan Turing"  height ="400" width="300" class="center">
    
-    <p><br>
+   
+ 
+
+
+
+
+
+
+        <div class="header">
+            <h1 class="mainheader">The Biography of Alan Turing</h1>
+            <img src="images/turing.jpg" alt="picture of Alan Turing"  height ="400" width="300" class="center">
+
+            <p>presented by : Ralph Henry L. Dominisac BS-COMPSC 2-A</p>
+            
+          </div>
+          
+          <div id="navbar">
+            <a class="a active" href="#profile-section">Profile</a>
+            <a class="a" href="#earlylife-section">Early Life</a>
+            <a class="a"  href="#career-section">Career</a>
+            <a class="a"  href="#personallife-section">Personal Life</a>
+            <a class="a"  href="#awards-section">Awards and Achievements</a>
+            <a class="a"  href="#books-section">Published Books</a>
+            
+          </div>
 
   
 
 <!-- Create multiple tab hyperlinks/buttons for each category of biography (early life, achievements, etc.) -->
 <!-- Then make these as following fixed while scrolling down -->
 
-<h2> <a href="#profile-section"> Profile</a></h2> 
-<h2> <a href="#earlylife-section"> Early Life</a></h2>
-<h2> <a href="#career-section"> Career</a></h2>
-<h2> <a href="#personallife-section"> Personal Life</a></h2>
-<h2> <a href="#awards-section"> Awards and Achievements</a></h2>
-<h2> <a href="#books-section"> Published Books</a></h2>
-
 
 
 <a name="profile-section"></a>
    <h2>Profile</h2>
+  
     <ul>
         <li>Name: Alan Mathison Turing</li>
         <li>Sex: Male</li>
@@ -65,7 +81,7 @@
 
 
 
-    
+<a name="earlylife-section"></a>
     <h1 class="centertext">Early Life</h1>
     <p>Alan Turing was born on June 23, 1912, in Maida Vale. During his childhood, he displayed
         signs of unique and high intelligence in which certain teachers from Sherborne School, where Turing studied, noticed it from him.
@@ -107,7 +123,7 @@
 
 
 
-
+    <a name="career-section"></a>
     <h1 class="centertext">Career</h1>
     <p> Alan Turing performed as a codebreaker at Bletchley Park and took a big role in generating outstanding advances 
         in cryptanalysis. He then published two papers that is inlined with breaking codes through mathematical approaches.
@@ -127,7 +143,7 @@
     </p>
 
 
-
+<a name="personallife-section"></a>
     <h1 class="centertext">Personal Life</h1>
 
     <h2>Engagement</h2>
@@ -161,6 +177,10 @@
 
 
 
+
+
+
+<a name="awards-section"></a>
     <h2>Awards and Achievements</h2>
 
     <p>In 1994, Manchester, the city where Alan Turing worked until the end of his life, named a road in honor before him which was called "Alan Turing Way", then a bridge called Alan Turing Bridge.
@@ -181,7 +201,7 @@
     </p>
 
 
-
+<a name="books-section"></a>
     <h2>Published Books and Papers</h2>
     <ul>
         <li> Mechanical Intelligence, ed. Darrel Ince</li>
@@ -198,18 +218,41 @@
 
     
 
+<!-- JavaScript for the stick navbar -->
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+
+// for active tabs in navbar
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("a");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 
 
 
 
+    </script>
 
 
 
 
-
-
-
- 
 
 
 
