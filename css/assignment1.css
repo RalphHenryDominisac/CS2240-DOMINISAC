@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
 
 .mainheader{
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px
 }
 
 .center{
@@ -16,11 +26,38 @@
     text-align: center;
 }
 
+.profile-label{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.profile-list{
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
 
-/*////////// Stick Navbar:///////////////////////////////// */
+.profile-li{
+  padding: 9px 0px; 
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  text-align: justify;
+}
+
+
+
+
+/*////////// Sticky Navbar:///////////////////////////////// */
 .header {
-    background-color: #f1f1f1;
-    padding: 30px;
+    background-color: rgb(240, 240, 137);
+    padding: 10px;
     text-align: center;
   }
   
@@ -37,6 +74,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
   
   #navbar a:hover {
@@ -45,12 +84,13 @@
   }
   
   #navbar a.active {
-    background-color: #04AA6D;
+    background-color: rgb(146, 146, 62);
     color: white;
   }
   
   .content {
     padding: 16px;
+   
   }
   
   .sticky {
@@ -62,6 +102,61 @@
   .sticky + .content {
     padding-top: 60px;
   }
+
+
+
+
+
+  /*///////// Flexbox  ////////////////////////////////////// */
+
+  .container-1{
+    display: flex;
+  }
+
+  .container-1 div{
+    border:1px #ccc solid;
+    padding:10px;
+  }
+
+  .box-1-1{
+  
+
+  }
+
+  .box-1-2{
+  
+
+  }
+
+
+
+
+  .container-2{
+    display: flex;
+  }
+
+  .container-2 div{
+    border:1px #ccc solid;
+    padding:10px;
+  }
+
+  .box-2-1{   /* try to adjust spacing of paragprah inside flexbox (*or use CSS grids)  */
+     flex:1;
+     align-items: center;
+  }
+
+  .box-2-2{
+    flex:1;
+    
+  }
+
+  
+
+
+
+
+
+
 
 
 /* /////////////////////////////////////////////////////// */
@@ -90,3 +185,8 @@
     background-repeat: no-repeat;
     background-size: cover;
   } */
+
+
+
+
+
