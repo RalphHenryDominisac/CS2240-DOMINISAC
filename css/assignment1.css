@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////// */
@@ -46,7 +47,7 @@ h1{
 }
 
 p{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   font-size: 22px;
   text-align: justify;
 }
@@ -107,7 +108,7 @@ p{
 
 
 
-  /*///////// Flexbox  ////////////////////////////////////// */
+  /*///////// CSS Flexbox  ////////////////////////////////////// */
 
   .container-1{
     display: flex;
@@ -131,8 +132,9 @@ p{
 
 
 
-  .container-2{
+  /* .container-2{
     display: flex;
+    justify-content: space-around;
   }
 
   .container-2 div{
@@ -140,7 +142,7 @@ p{
     padding:10px;
   }
 
-  .box-2-1{   /* try to adjust spacing of paragprah inside flexbox (*or use CSS grids)  */
+  .box-2-1{   
      flex:1;
      align-items: center;
   }
@@ -148,7 +150,38 @@ p{
   .box-2-2{
     flex:1;
     
+  } */
+  /* ////////////////////////////////////////////// */
+
+
+  /*/////////// CSS Grids //////////////////////////////////// */
+
+
+  .grid-1{
+    margin: 1rem ;
+    width: min(90%, 75rem);
+    display: grid;
+     grid-template-columns: 35% 51% 33% ;  
+    /* grid-auto-flow: column;
+    gap: 2em */
+    gap: 1em
+
   }
+
+
+  .grid-2{
+    margin: 1rem ;
+    width: min(90%, 75rem);
+    display: grid;
+     grid-template-columns:22% 80% 33% ; 
+    /* grid-auto-flow: column;
+    gap: 2em */
+    gap: 1em;
+  
+  }
+
+
+
 
   
 
