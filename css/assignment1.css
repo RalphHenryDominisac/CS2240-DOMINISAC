@@ -115,7 +115,7 @@ p{
   }
 
   .container-1 div{
-    border:1px #ccc solid;
+    /* border:1px #ccc solid; */
     padding:10px;
   }
 
@@ -180,6 +180,17 @@ p{
   
   }
 
+  .grid-3{
+    margin: 3rem ;
+    width: min(90%, 75rem);
+    display: grid;
+     grid-template-columns:65% 50%; 
+    /* grid-auto-flow: column;
+    gap: 2em */
+    gap: 1em;
+  
+  }
+
 
 
 
@@ -218,6 +229,26 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
   } */
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  .centerTable1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .centerTable2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tableFontStyle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+  
+  }
 
 
 
