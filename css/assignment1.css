@@ -65,6 +65,7 @@ p{
   #navbar {
     overflow: hidden;
     background-color: #333;
+    display: flex;
   }
   
   #navbar a {
@@ -120,38 +121,47 @@ p{
   }
 
   .box-1-1{
+     display: flex;
+     
+
+  }
+
+.fleximage{
+  max-width:100%;
+  object-fit: cover;
+
+
+}
+
+.centerfleximage{
+  max-width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.flexvid{
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
   
-
-  }
-
-  .box-1-2{
   
-
-  }
-
-
+  
+}
 
 
-  /* .container-2{
-    display: flex;
-    justify-content: space-around;
-  }
 
-  .container-2 div{
-    border:1px #ccc solid;
-    padding:10px;
-  }
 
-  .box-2-1{   
-     flex:1;
-     align-items: center;
-  }
 
-  .box-2-2{
-    flex:1;
-    
-  } */
-  /* ////////////////////////////////////////////// */
+
+
+
+ 
+
 
 
   /*/////////// CSS Grids //////////////////////////////////// */
@@ -190,6 +200,8 @@ p{
     gap: 1em;
   
   }
+
+
 
 
 
