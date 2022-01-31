@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMINISAC - PA2</title>
+
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+     
+     <link rel="stylesheet" href="css/mystyles.css">
+     <!-- Quick inline style -->
+     <style>
+      .banner-image {
+        background-image: url('images/textuuree.png');
+        background-size: cover;
+      }
+    </style>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+   
+
+</head>
+
+<!-- ADD FLEX ON ALL ELEMENTS SUCH AS IMAGES, TEXTS, ETC.!!!!! -->
+<!-- Change specs and details info of RESP!!! -->
+
+<body>
+
+  <a name="home-section"></a>
+      <!-- Navbar  -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#">Web Zone</a> -->
+          <img src="images/playstation-logotype.png" alt="" height="50px">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#home-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#origin-section">Origin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#story-section">Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#consoles-section">Consoles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#controllers-section">Controllers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#startups-section">Startups</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#players-section">For the Players</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Banner Image  -->
+      <section class="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-controls">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('images/textuuree.png')"></li>
+            <li data-target="#carousel" data-slide-to="1" style="background-image:url('images/ev.jpg')"></li>
+            <li data-target="#carousel" data-slide-to="2" style="background-image:url('images/consolegaming.jpg')"></li>
+            
+          </ol>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+           <img src="images/left-arrow.svg" alt="Prev"> 
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <img src="images/right-arrow.svg" alt="Next">
+        </a>
+        </div>
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active" style="background-image:url('images/textuuree.png')">
+            <div class="container">
+               <h2>HISTORY OF PLAYSTATION</h2>
+               <p>プレイステーションの歴史 <br> <br>
+                presented by: Ralph Henry L. Dominisac <br> <br>
+                <a class="btn btn-secondary btn-lg" href="#origin-section" role="button">Get Started</a>
+              </p>
+            </div>
+          </div>
+      
+          <div class="carousel-item" style="background-image:url('images/ev.jpg')">
+            <div class="container">
+               <h2>Discover the creation of Ken Kutaragi </h2>
+               <p>久夛良木健の創作を発見 <br> <br>
+                <a class="btn btn-secondary btn-lg" href="#origin-section" role="button">Get Started</a>
+              </p>
+            </div>
+          </div>
+      
+          <div class="carousel-item" style="background-image:url('images/consolegaming.jpg')">
+            <div class="container">
+               <h2>Unfold the power of console gaming</h2>
+               <p>コンソールゲームの力を発揮する <br> <br>
+                <a class="btn btn-secondary btn-lg" href="#origin-section" role="button">Get Started</a>
+              </p>
+            </div>
+          </div>
+          
+      
+        </div>
+      </div>
+       </section>
+
+
+
+
+
+
+
+      <a name="origin-section"></a>
+
+      <!-- Main Content Area -->
+      <br> <br> <br>  <br> 
+   
+
+      <!-- ORIGIN -->
+   <center>  <h1 class="sectionTitles">Origin</h1>  </center>
+    
+     
+
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-lg">
+        <center>  <img src="images/PlayStation-Logo1994-2009.png" alt="an image" class="img-fluid mb-4 rounded" style="height:280px"> 
+          <div class="container  d-grid gap-5 w-75 p-5">
+            <p class="text-justify" id="paragraphsContent">
+              &emsp; &emsp;At the time, Sony, the most well-known electronics manufacturer of televisions, radios and mobile phones, decided to enter the video game industry in the mid-'90s. Soy were inspired by the success of  two major players in the field at the time, Nintendo and Sega. Their original idea was not to build their own console, 
+                          but to develop the machine with one of the two. However, both  efforts were unsuccessful as Nintendo decided to merge with Dutch manufacturer Philips at the last minute and Sega rejected Sony's approach due to  lack of field experience. 
+                                         <br> <br>
+                                         Sony decided to build on what it had already done on the Nintendo console, which leverages the processing  and storage capacity of CD-ROMs. They have agreed with several third-party developers such as Namco and Konami to make powerful game choices with the launch of the new console. And at the first Electronic Entertainment Expo (E3)  in 1995, Sony unveiled its original home console, the PlayStation.
+              
+            </p>
+          </div>
+               </center>
+          </div> 
+      
+          </div> <!-- /row -->
+        </div>
+
+        <br> 
+
+
+        <a name="story-section"></a>
+<!-- STORY-->
+
+<br> <br> <br> <br> 
+
+
+<center>   <h1 class="sectionTitles">Story</h1>  </center>
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-lg">
+  <center>  <img src="images/sonynintendo.png" alt="an image"  style="height:340px"> 
+    <div class="container  d-grid gap-5 w-75 p-5">
+      <p class="text-justify" id="paragraphsContent">
+        &emsp; &emsp; The history of the PlayStation begins in 1988 as when Sony and Nintendo were working together collaborated to develop the Super Disc. Nintendo was dominating dominated computer gaming at that time. games back then. Sony had not yet hadn't entered the home video game market, market yet, but they were eager keen to make a move. By teaming working with the market leader, they believed they had a good chance for of success.
+        <br> <br>
+        Only 200 models of the first PlayStation (which could play Super Nintendo game cartridges) were ever made by Sony. The original PlayStation was designed as a multimedia and multipurpose entertainment unit. Aside from being able to play Super Nintendo games, the PlayStation could play audio CDs and read computer and video information CDs. However, these prototypes were scrapped.
+  
+          <br></br> 
+
+    
+          Kutaragi developed games in a 3D polygon graphics format. Not everyone at Sony approved of the PlayStation project and it was moved to Sony Music in 1992, which was a separate entity. They further spun off in 1993 to form Sony Computer Entertainment, Inc. (SCEI).
+          The new company attracted developers and partners, including Electronic Arts and Namco, who were excited about the 3D-capable, CD-ROM-based console. Compared to the cartridges used by Nintendo, it was easier and cheaper to make CD-ROMs.
+       </p>
+        
+      </p>
+    </div>
+         </center>
+    </div> 
+
+    </div> <!-- /row -->
+  </div>
+
+  <br>
+
+
+
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->\
+<a name="consoles-section"></a>
+<br> <br> <br> <br> 
+<center>    <h1 class="sectionTitles">Consoles</h1> </center>
+
+<div class="container my-5 d-grid gap-5 w-75"> 
+
+
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-lg">
+      
+     <img src="images/ps1.jpg" alt="ps1" height="250px">
+        
+    </div> 
+
+    <div class="col-lg">
+      <h1 class="display-5 fw-bolder">PlayStation</h1>
+          <div class="fs-5 mb-5">
+            <span>Released: December 3, 1994</span>
+              </div>
+            <p class="lead" id="paragraphsContent">The original PlayStation was designed as a multi-media and multi-purpose entertainment unit. Besides being able to play Super Nintendo games, the PlayStation could play audio CDs and could read CDs with computer and video information.</p>
+  
+
+       <!-- Button modal -->
+       <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#ps1Modal">
+        <i class="bi-cart-fill me-1"></i>
+        Specs and Details
+    </button>
+     <!-- /////////////////////////////////////////////////////////// -->                          
+    <!-- The Modal -->
+    <div class="modal " id="ps1Modal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">PlayStation</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <b> CPU: </b> LSI CoreWare CW33300-based core <br>
+           <b> Memory: </b>  2 MB main EDO DRAM <br>
+           <b>  GPU: </b>  32-bit Sony GPU (designed by Toshiba) <br>
+           <b> Weight: </b> 1.5 kg<br> <br>
+
+             The PlayStation was released in Japan in December 1994 and in the United States in September 1995. Their sales exceeded even the highest expectations, with queues of players queuing outside stores and retailers selling out daily. Subsequent release in Europe and Australia only helped to increase the success, crush the competition and ensure that Sony would now be a major player in the industry. It's worth noting that the PlayStation outperformed its main competitor, the Sega Saturn, by more than three to one within its first year of launch. <br> <br>
+
+             Some of the most famous titles and franchises from the original PlayStations library are the Crash Bandicoot series, Final Fantasy, Metal Gear Solid, Tekken, Tomb Raider, Resident Evil, Command & Conquer, Dragon Quest, Gran Turismo, Grand Theft Auto, Mortal Kombat , Persona, Tom Clancy's Rainbow Six, Silent Hill and Street Fighter. Sony also started the now eponymous trend of annual releases for a wide range of sports titles such as FIFA, NBA Live, Madden, Formula One and others, most of which were published by Electronic Arts (EA).
+
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+   </div> 
+
+    </div> <!-- /row -->
+  </div>
+
+  <br> <br>
+
+
+
+
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-lg">
+        
+       <img src="images/ps2.jpg" alt="ps1" height="250px">
+          
+      </div> 
+  
+      <div class="col-lg">
+        <h1 class="display-5 fw-bolder">PlayStation 2</h1>
+            <div class="fs-5 mb-5">
+              <span>Released: March 4, 2000</span>
+                </div>
+              <p class="lead" id="paragraphsContent">The PlayStation 2 was the successor to the PlayStation 1 and Sony's second console in the line. It is considered the sixth generation video game console and has become one of the most successful video game consoles of all time.</p>
+       
+  
+         <!-- Button modal -->
+         <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#ps2Modal">
+          <i class="bi-cart-fill me-1"></i>
+          Specs and Details
+      </button>
+       <!-- /////////////////////////////////////////////////////////// -->                          
+            <!-- The Modal -->
+            <div class="modal " id="ps2Modal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">PlayStation 2</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <b> CPU: </b> MIPS III R5900-based "Emotion Engine" <br>
+                    <b> Memory: </b> 32 MB PC800 32-bit dual-channel (2x 16-bit) RDRAM (Direct Rambus DRAM) <br>
+                    <b>GPU: </b> Parallel rendering processor with embedded DRAM "Graphics Synthesizer" (GS) <br>
+                    <b> Weight: </b> 2.2 kg<br> <br>
+
+                    Sony released the PS2 in 2000. Within days, sales of the console were in the millions of units as many players stumbled upon empty store shelves and resorted to spending thousands of dollars through online purchases to find one. <br> <br>
+
+                    The corporation of Sony wanted the PlayStation 2 to offer gamers a better experience through sequels and fresh titles for all of their most popular franchises. They also ensured that the original PlayStation collection would be available to gamers by making the PS2 backward compatible. They also created memory cards (save file holders) with larger storage capacities to keep track of the larger and more complex games their studios were churning out. Another reason for the PS2's success was the fact that it doubled as a DVD player and reached a wider audience..
+
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+      
+     </div> 
+  
+      </div> <!-- /row -->
+    </div>
+
+
+    <br> <br>
+
+
+
+
+
+
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg">
+          
+         <img src="images/ps3.jpg" alt="ps1" height="250px">
+            
+        </div> 
+    
+        <div class="col-lg">
+          <h1 class="display-5 fw-bolder">PlayStation 3</h1>
+              <div class="fs-5 mb-5">
+                <span>Released: November 11, 2006</span>
+                  </div>
+                <p class="lead" id="paragraphsContent">The PlayStation 3 (PS3) is a dedicated machine games console for playing video games, which connects to your television. The third in Sony's extremely successful series of game consoles.</p>
+          
+    
+         <!-- Button modal -->
+         <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#ps3Modal">
+          <i class="bi-cart-fill me-1"></i>
+          Specs and Details
+      </button>
+
+       <!-- /////////////////////////////////////////////////////////// -->                          
+        <!-- The Modal -->
+        <div class="modal " id="ps3Modal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">PlayStation 3</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <b> CPU: </b> 3.2GHz Cell Broadband Engine <br>
+                <b> Memory: </b> 256 MB XDR DRAM system and 256 MB GDDR3 video <br>
+                <b>GPU: </b>  NVIDIA G70 <br>
+                <b> Weight: </b> 2.1kg<br> <br>
+
+                Sony's seventh generation console, which entered development in 2001, had a great legacy to follow and big shoes to fill, but it also faced greater resistance. Microsoft had followed its successful first console with the more powerful and faster Xbox 360, while Nintendo remained a strong competitor in the market with the highly innovative Wii. <br> <br>
+
+                Announced at E3 2005, the PlayStation 3 met with skepticism due to its high price compared to its predecessor ($599), but also the fact that it was launched in two editions, one with 20GB storage capacity and one with 60 GB. Not only did the 20GB version have less storage space, it also lacked the HDMI port, flash drive reader, and Wi-Fi internet connection that came with the 60GB version. As if that wasn't enough to cast doubt on customers' minds, Sony decided to push back the first launch date of the consoles in Europe by a few months due to a lack of manufacturing materials..
+
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+
+       </div> 
+    
+        </div> <!-- /row -->
+      </div>
+
+
+
+<br> <br>
+
+
+
+
+
+
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-lg">
+      
+     <img src="images/ps4.jpg" alt="ps1" height="290px">
+        
+    </div> 
+
+    <div class="col-lg">
+      <h1 class="display-5 fw-bolder">PlayStation 4</h1>
+          <div class="fs-5 mb-5">
+            <span>Released: November 15, 2013</span>
+              </div>
+            <p class="lead" id="paragraphsContent">The PlayStation 4 is a great system for gaming-focused folks and those who might want to try VR right away (or at some point later). It's a system that's inexpensive, easy to use, and has arguably the most robust games library of any modern console.</p>
+      
+
+       <!-- Button modal -->
+       <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#ps4Modal">
+        <i class="bi-cart-fill me-1"></i>
+        Specs and Details
+    </button>
+
+     <!-- /////////////////////////////////////////////////////////// -->                          
+      <!-- The Modal -->
+      <div class="modal " id="ps4Modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">PlayStation 4</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <b> CPU: </b> x86-64 AMD “Jaguar”, 8 cores <br>
+              <b> Memory: </b> GDDR5 8GB <br>
+              <b>GPU: </b>  1.84 TFLOPS, AMD Radeon™ based graphics engine <br>
+              <b> Weight: </b> 2.8 kg <br> <br>
+
+              The PlayStation 4 entered development in 2008, with four years later Sony sending out kits to all of its main developers to get their input and better understand what they wanted from this new console so they could make their games better and more efficiently . The PS4 was announced at a Sony event called Future Of PlayStation held in February 2013, while the design of the machine itself was kept secret until this year's E3. The new console was released on November 15th in the US and Canada and November 29th in the rest of the world. <br> <br>
+
+              The console offered a greater range of options for players to interact with each other, such as the ability to form social groups based on their interests and events, as well as the ability to start parties and play together while communicating via a headset. Additionally, the new controller (DualShock 4) featured a share button, allowing players to post their achievements or pictures of their in-game adventures to their social media accounts (although the option to share to Facebook was eventually removed). Players can also stream their games live or watch other players from around the world play their favorite titles and leave comments or likes.
+
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+   </div> 
+
+    </div> <!-- /row -->
+  </div>
+
+  <br> <br>
+
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-lg">
+        
+       <img src="images/ps5.png" alt="ps1" height="250px">
+          
+      </div> 
+  
+      <div class="col-lg">
+        <h1 class="display-5 fw-bolder">PlayStation 5</h1>
+            <div class="fs-5 mb-5">
+              <span>Released: November 12, 2020</span>
+                </div>
+              <p class="lead" id="paragraphsContent">The PlayStation 5 is the most powerful PlayStation Sony has ever made. In addition to a powerful, customized CPU and GPU, the system also houses an ultra-fast SSD hard drive that enables lightning-fast loading speeds and completely new experiences.</p>
+       
+  
+      <!-- Button modal -->
+      <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#ps5Modal">
+        <i class="bi-cart-fill me-1"></i>
+        Specs and Details
+    </button>
+
+     <!-- /////////////////////////////////////////////////////////// -->                          
+      <!-- The Modal -->
+      <div class="modal " id="ps5Modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">PlayStation 5</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <b> CPU: </b> x86-64-AMD Ryzen Zen 8 Cores / 16 Threads at 3.5GHz <br>
+              <b> Memory: </b> 	16GB GDDR6/256-bit <br>
+              <b>GPU: </b>  AMD Radeon RDNA 2 <br>
+              <b> Weight: </b> 4.5kg <br> <br>
+
+              The latest console from Sony is the PlayStation 5, which is another big step forward technologically. The PS4's Achilles' heel was the CPU, which was originally designed for low-end tablets and netbooks. But Sony has made a major upgrade with the PS5, using an octa-core AMD Zen 2 CPU, paired with RDNA2 graphics and 16GB of GDDR6 RAM. <br> <br>
+
+              Perhaps the biggest upgrade comes in the storage area, as the PS5 uses a super-fast 825GB NVMe M.2 custom SSD. This enables lightning-fast load times in games, even in open-world titles. Upcoming titles like Ratchet and Clank Rift Apart also seem to make uniquely impressive use of fast loading times. Sony has also focused on audio with the new console, with something called Tempest Engine technology allowing for more immersive audio effects when used with headphones. The PS5 is available in two variants, with both featuring the same horsepower and 825GB SSD. But the standard model comes with a 4K Blu-ray disc drive for $499, while the $399 variant lacks a physical disc drive and relies on digital downloads only.
+
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+     </div> 
+  
+      </div> <!-- /row -->
+    </div>
+
+    </div> 
+    <!-- end of container -->
+
+
+
+
+
+
+
+
+
+    <a name="controllers-section"></a>
+
+    <!-- Main Content Area -->
+    <br> <br> <br>  <br> 
+ 
+
+    <!-- CONTROLLERS -->
+
+    <center>   <h1 class="sectionTitles">Controllers</h1>  </center>
+    <br>
+
+
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+
+
+
+
+
+
+
+<!-- ///////////////////////////////////////////////////////////////// -->
+
+<div class="container">
+  <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./images/ps1contt.png" class="card-img-top" alt="A Street in Europe">
+              <div class="card-body">
+           <center>      <h5 class="card-title">Original PlayStation Controller</h5> </center>  
+                  <p class="card-text">The PlayStation controller was inspired by the Super Nintendo controller and released alongside the original PlayStation in 1994. Teiyu Goto, the creator of the first PlayStation controller, admired Nintendo's latest console's success and didn't want this new controller to be too "radical."</p>
+                 
+                     <!-- Popover -->
+                   <div class="container">
+                    <div class="row" >
+                        <div class="col-12">
+                         <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="It was available in PlayStation Gray, which matched the original console's color scheme. The Start and Select buttons were positioned above a Sony PlayStation logo, as detailed in the previous section. The controller is unique among its peers in that it is the only one without thumbsticks. It was also a wired controller that plugged into a specifically built controller port on the front of the PlayStation; a function that was dropped in later versions of the joypad.">See Details</button> </center> 
+                        </div>
+                    </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./images/ps1conttt.png" class="card-img-top" alt="London">
+              <div class="card-body">
+             <center>   <h5 class="card-title">DualShock</h5> </center>  
+                  <p class="card-text">The DualShock featured a rumble feature, which got its name from the two vibration motors placed under the controller's grips. Ape Escape was the first game to use the DualShock controller in 1999. <br> <br> <br> </p>
+                  
+                     <!-- Popover -->
+                     <div class="container">
+                      <div class="row" >
+                          <div class="col-12">
+                           <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="With the original DualShock, analog sticks were here to stay, since they had become a strong favorite among PlayStation aficionados. They did, however, add two more action buttons: depressing the thumbsticks until they clicked activates the L3 (left) and R3 (right) actions in a game. This PlayStation controller was the first to have vibration feedback. It was a wired control pad, just like its two predecessors, and it was launched for the original PlayStation in a matching gray hue.">See Details</button> </center> 
+                          </div>
+                      </div>
+                    </div>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./images/ps2contt.png" class="card-img-top" alt="New York">
+              <div class="card-body">
+                <center>   <h5 class="card-title">DualShock 2</h5> </center>  
+                  <p class="card-text">The DualShock 2 was introduced in 2000 alongside the PlayStation 2 and was similar to the original DualShock with the exception of a few cosmetic tweaks, a more square connector, and pressure-sensitive analog buttons. <br> <br></p>
+                  
+                    <!-- Popover -->
+                    <div class="container">
+                      <div class="row" >
+                          <div class="col-12">
+                           <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="However, it was the first PlayStation controller to stray from the standard color scheme. The DualShock 2 was available in a sleek black finish, making it look more cooler. Previous variants have been released in a variety of see-through plastics and other materials, but the basic models were always gray. It was connected once more, and it had the same Start, Select, and Analog button layout as the two PlayStation controllers before it. It did, however, give the action buttons analog capability by making them pressure sensitive.">See Details</button> </center> 
+                          </div>
+                      </div>
+                    </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>  
+
+<br>
+
+<div class="container">
+  <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./images/ps3contt.png" class="card-img-top" alt="A Street in Europe">
+              <div class="card-body">
+                <center>  <h5 class="card-title">The Sixaxis (later DualShock 3)</h5> </center>
+                  <p class="card-text">When the PlayStation 3 was released in 2006, it came with a Sixaxis controller. It was Sony's first official wireless controller, capable of "six degrees of freedom" motion detection but without a rumble capability. <br> <br></p>
+                  
+                    <!-- Popover -->
+                    <div class="container">
+                      <div class="row" >
+                          <div class="col-12">
+                           <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="This was the first time that gamers didn't need to connect to their PlayStation via a wired connection. However, this has its own set of issues, such as your controller running out of juice during a vital Battlefield moment. You could use a micro-USB to USB cable, which is currently Sony's preferred charging cable. The Sixaxis was also sensitive to movement. This meant that by tilting the pad, you could control various aspects of a game. It didn't vibrate as a result of this. Sony had obviously not learned its lesson from the Dual Analog. However, the Analog button was removed.">See Details</button> </center> 
+                          </div>
+                      </div>
+                    </div>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./images/ps4cont.jpg" class="card-img-top" alt="London">
+              <div class="card-body">
+              <center>    <h5 class="card-title">DualShock 4</h5> </center>  
+                  <p class="card-text">The DualShock 4 was introduced in 2013 alongside the PlayStation 4 and featured a capacitive front touchpad, motion detection, and a light bar on the top of the controller that could illuminate in a variety of colors. <br> <br> <br> </p>
+                  
+                     <!-- Popover -->
+                     <div class="container">
+                      <div class="row" >
+                          <div class="col-12">
+                           <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="The overall controls stayed the same, with analog sticks remaining. It also kept the motion-sensing technology and haptic feedback from previous editions. It housed the capacitive touchpad, which takes up the most of the pad's front center. The top of the controller also contains a light bar that flashes in reaction to certain conditions, such as when the controller is charging or turned on.
+                            There's also a headset jack that can give stereo sound. A new feature is the Extension port. Finally, the buttons for Options and Share were added. On the PS4, these opened several menus.">See Details</button> </center> 
+                          </div>
+                      </div>
+                    </div>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="./images/ps5cont.jpg" class="card-img-top" alt="New York">
+            <div class="card-body">
+              <center>  <h5 class="card-title">DualSense</h5> </center>  
+                <p class="card-text">The DualSense is the name of the PlayStation 5 controller that has been unveiled. It will "bring a sensation of touch to PS5 gameplay," according to reports, it will retain many of the DualShock 4's functions while adding new functionality and a streamlined look.</p>
+                
+                <!-- Popover -->
+                <div class="container">
+                  <div class="row" >
+                      <div class="col-12">
+                       <center>  <button type="button" class="btn btn-outline-dark flex-shrink-0" data-toggle="popover" title="Features and Functionalities" data-content="The form factor is comparable to that of the DualShock 4. The shape has slightly changed, although not significantly. The blue backlighting for the capacitive touchpad is a wonderful visual addition. In place of the Share button on the previous model, the DualSense has a Create button. Players can also communicate with one another by using the DualSense's integrated microphone.
+                        The DualSense also has a USB Type-C charging port, which replaces the old micro-USB port seen on the DualShock 3 and later.">See Details</button> </center> 
+                      </div>
+                  </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+<!-- *************************************************************************************************************** -->
+
+<a name="startups-section"></a>
+
+
+<br> <br> <br>  <br> 
+
+
+<!-- Startups -->
+
+<center>  <h1 class="sectionTitles">Startups</h1> </center>
+
+<section class="gallery min-vh-100">
+  <div class="container-lg">
+    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="col">
+        <img src="images/ps1bootup.gif" class="gallery-item" alt="Gallery1">
+      </div>
+
+      <div class="col">
+        <img src="images/ps2bootup1.gif" class="gallery-item" alt="Gallery2" height="248px">
+      </div>
+
+      <div class="col">
+        <img src="images/ps2bootup.gif" class="gallery-item" alt="Gallery3" height="247px">
+      </div>
+
+      <div class="col">
+        <img src="images/ps3bootup.gif" class="gallery-item" alt="Gallery4">
+      </div>
+
+      <div class="col">
+        <img src="images/ps4bootup.gif" class="gallery-item" alt="Gallery5">
+      </div>
+
+      <div class="col">
+        <img src="images/ps5bootup.gif" class="gallery-item" alt="Gallery6" height="253px">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <img src="images/ps1bootup.gif" class="modal-img" alt="Modal Image">
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<br>
+
+<!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+
+
+<a name="players-section"></a>
+
+<!-- Main Content Area -->
+<br> <br> <br>  <br> 
+
+
+<!-- CONTROLLERS -->
+
+<center>   <h1 class="sectionTitles">For the Players</h1> </center>
+<br>
+
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-lg">
+      <center>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/wZkMdi3XBhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+    </div> 
+
+    </div> <!-- /row -->
+  </div>
+
+
+
+
+<div class="container my-5 d-grid gap-5 w-50"> 
+  
+  <form action="/action_page.php" class="was-validated">
+  
+    <div class="form-check mb-3">
+      <center>
+      <div class="w-100 p-3"> 
+      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+      <label class="form-check-label" for="myCheck"> <b>Become a Player </b></label>
+      <div class="valid-feedback">Alright! Click the button below.</div>
+      <div class="invalid-feedback">Ready to start your gaming journey? Click the check box if you're in!</div>
+       </div>
+      </center>
+    </div>
+  </form>
+
+
+
+  
+
+
+
+  <!-- """""""""""""""""""""""""""""""""""""""""""""""" -->
+  <button type="button" class="btn btn-secondary btn-lg openmodal" data-toggle="modal" data-target="#myModal">The Creation</button>
+<!--Division for Modal-->
+<div id="myModal" class="modal fade" role="dialog">
+    <!--Modal-->
+    <div class="modal-dialog modal-lg">
+        <!--Modal Content-->
+        <div class="modal-content">
+            <!-- Modal Header-->
+            <div class="modal-header">
+               <h3 style="color: white";> dummy text</h3> 
+                <!--Close/Cross Button--> <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+            </div> <!-- Modal Body-->
+            <div class="modal-body text-center"> <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+              <h1 class="box light-blue-box rokkitt text-center" style="font-family: DM Sans;">
+                GAMERTAG GENERATOR
+              </h1>
+                <hr>
+              
+            </div> <!-- Radio Buttons for Rating-->
+    
+            <div class="container-fluid">
+             
+              <div class="box light-gray-box rokkitt text-center">
+                <h3 style="font-family: DM Sans;">Start your journey with an awesome gamertag!</h3> <br>
+                <h5>Click the "Generate" Button to Generate a Your Unique Gamertag!</h5>
+              </div>
+              <br>
+              <h4></h4>
+         <center>     <button onclick="generator()" class="btn btn-secondary btn-block btn-large">Generate!</button> </center>
+         <br>
+              <h1 class="jumbotron text-center rokkitt" id="name">Your Name Will Appear Here</h1>
+            </div>
+                
+
+            <!--Text Message-->
+            <div class="text-center">
+              
+                <hr>
+            </div> <center><h5 style="font-family: DM Sans;">Remember to take note of your generated name. <br> Now, click the button below create your own Sony account</h5> <br> </center>
+            <div class="w-100 p-3"> 
+              <center>
+            <a class="btn btn-secondary" href="https://id.sonyentertainmentnetwork.com/id/create_account_ca/?entry=create_account&auth_ver=v3&ui=pr&access_type=offline&client_id=e4a62faf-4b87-4fea-8565-caaabb3ac918&no_captcha=false&redirect_uri=https%3A%2F%2Fweb.np.playstation.com%2Fapi%2Fsession%2Fv1%2Fsession%3Fredirect_uri%3Dhttps%253A%252F%252Fio.playstation.com%252Fcentral%252Fauth%252Flogin%253Flocale%253Den_PH%2526postSignInURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fen-ph%25252Fsupport%25252F%2526cancelURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fen-ph%25252Fsupport%25252F%26x-psn-app-ver%3D%2540sie-ppr-web-session%252Fsession%252Fv5.13.0&response_type=code&scope=web%3Acore&service_entity=urn%3Aservice-entity%3Apsn&smcid=web%3Apdc&state=075635ef66986ff652e2837824e36f1628346f9ae1919f352d1182f784c292b1&cid=42588cf6-816b-4a84-a80b-1c34344fd2fd&duid=00000007000901006d1d735d5610c00e942a6ea281fb63c6dca95e2e0c3ee90ca41253bd65b1da55#/create_account/wizard/entrance?entry=create_account" role="button" target="_blank">Create account</a>
+          </center>
+          
+          </div>
+            <div class="modal-footer">  <a href="" class="btn btn-outline-secondary" data-dismiss="modal">Done</a> </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+<!-- for carousel functionality also -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+  var nav = document.querySelector('nav');
+
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 100) {
+      nav.classList.add('bg-dark', 'shadow');
+    } else {
+      nav.classList.remove('bg-dark', 'shadow');
+    }
+  });
+
+</script>
+
+
+        <!-- Optional JavaScript (for Popovers) -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+
+
+<script>
+    var popoverTriggerList = [].slice.call( document.querySelectorAll( '[data-toggle="popover"]' ) );
+            var popoverList = popoverTriggerList.map( function( popoverTrigger )
+            {
+                return new bootstrap.Popover( popoverTrigger );
+            } );
+</script>
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script> -->
+<!-- image gallery -->
+<script type="text/javascript">
+  document.addEventListener("click",function (e){
+    if(e.target.classList.contains("gallery-item")){
+        const src = e.target.getAttribute("src");
+        document.querySelector(".modal-img").src = src;
+        const myModal = new bootstrap.Modal(document.getElementById('gallery-popup'));
+        myModal.show();
+    }
+  })
+</script>
+
+
+<!-- gamertag generator -->
+<script>
+  var adjective = ["Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even","Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even", "Flat", "Hilly", "Jagged", "Round", "Shallow", "Square", "Steep", "Straight", "Thick", "Thin", "Cooing", "Deafening", "Faint", "Harsh", "High-pitched", "Hissing", "Hushed", "Husky", "Loud", "Melodic", "Mute", "Noisy", "Purring", "Quiet", "Raspy", "Screeching", "Shrill", "Silent", "Soft", "Squeaky", "Squealing", "Thundering", "Voiceless", "Whispering"] 
+var object = ["Taco", "OperatingSystem", "Sphere", "Watermelon", "Cheeseburger", "ApplePie", "Spider", "Dragon", "RemoteControl", "Soda", "BarbieDoll", "Watch", "PurplePen", "DollarBill", "StuffedAnimal", "HairClip", "Sunglasses", "T-shirt", "Purse", "Towel", "Hat", "Camera", "Bottle", "Photo", "DogBone", "HairBrush", "BirthdayCard"]
+var list;
+
+function generator() {
+ document.getElementById("name").innerHTML = adjective[Math.floor(Math.random() * adjective.length)] +  object[Math.floor(Math.random() * object.length)];;;
+}
+
+</script>
+
+
+
+
+
+
+
+</html>
