@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA3 App Dev | DOMINISAC</title>
+
+    <!-------------------------- External CSS----------------------------------------------->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-------------------------------------------------------------------------------------->
+
+
+    <!-------------------------- Bootstrap----------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+  <!------------------------------------------------------------------------------------->
+  
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  
+</head>
+<body style="background-color: lightgreen">
+
+  <!-- <a name="home-section"></a> -->
+
+  <section id="home-section">
+
+
+	<header>
+        <div class="menu-container">
+            <div class="grt-menu-row">
+                <div class="grt-menu-logo">
+                    <a href="#"  class="grt-logo"><img src="img/xbox-logo.png" width="50" height="50" style="margin-top:5px"></a>
+                </div>
+                <div class="grt-menu-right">
+                    <nav>
+                        <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
+                        <ul class="grt-menu">
+                          
+                            <li><a href="#home-section" class="l">Home</a></li>
+                            <li><a href="#origin-section" class="smooth-scroll">Origin</a></li>
+                            <li><a href="#story-section" class="smooth-scroll">Story</a></li>
+                            <li><a href="#consoles-section" class="smooth-scroll">Consoles</a></li>
+                            <li><a href="#community-section" class="smooth-scroll">Community</a> </li>
+                            <li class="grt-dropdown"><a>Services</a>
+                              <ul class="grt-dropdown-list">
+                                <li><a href="https://www.xbox.com/en-US/" target="_blank">official site</a></li>
+                                <li><a href="https://www.xbox.com/en-US/microsoft-store" target="_blank">store</a></li>
+                                <li><a href="https://support.xbox.com/en-US/" target="_blank">support</a></li>
+                              
+                              </ul>
+                            </li>
+                            <li><a href="#extras-section">Extras</a></li>	
+                          
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+
+
+    <section class="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-controls">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/xboxmain.jpg')"></li>
+            <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/power.jpg')"></li>
+            <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/xboxrockgates.jpg')"></li>
+            
+          </ol>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+           <img src="img/left-arrow.svg" alt="Prev"> 
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <img src="img/right-arrow.svg" alt="Next">
+        </a>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image:url('img/xboxmain.jpg')">
+            <div class="container">
+               <div class="strokeme">
+               <h2>The Xbox</h2>
+               <p>presented by: Ralph Henry L. Dominisac</p>
+                </div>
+              
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image:url('img/power.jpg')">
+            <div class="container">
+              <div class="strokeme">
+               <h2>Power Your Dreams</h2>
+               <p>Enter the world of Microsoft Gaming </p>
+              
+              </div>
+              </div>
+          </div>
+          <div class="carousel-item" style="background-image:url('img/xboxrockgates.jpg')">
+            <div class="container">
+              
+              <div class="strokeme">
+             
+               <h2>Great Gaming Impact</h2>
+               <p>Discover the evolution of a powerful console</p>
+              
+               </div> 
+              </div> 
+          </div>
+        </div>
+      </div>
+       </section>
+
+
+       <!-- ////////////////////////////////// -->
+
+     
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                
+
+            </div>
+            <div class="modal-body">
+                <h3>Are you ready?</h3>
+                <p style="text-align: justify;">Be immersed into the world of console gaming with Microsoft's outstanding gaming product; The Xbox. Find out its unique history, its evolution throughout time, and its milestones along the way in its progress of innovation.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Let's Go!</button>
+               
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+</section>
+
+
+
+
+<!-- ///////////////////////////////// -->
+
+<!-- <a name="origin-section"></a> -->
+<section id="origin-section"> 
+
+<!-- Main Content Area -->
+<br> <br> <br>  <br> 
+
+<section data-aos="fade-left">
+<center>  <h1 class="sectionTitles">Origin</h1>  </center>
+
+
+
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-lg">
+    <center>  <img src="img/xboxblack.png" alt="an image" class="img-fluid mb-4 rounded" style="height:350px"> 
+      <div class="container  d-grid gap-5 w-75 p-5">
+        <p class="text-justify" id="paragraphsContent">
+          &emsp; &emsp;The idea of Microsoft creating its own gaming system gained traction in 1998, when Kevin Bachus, Seamus Blackley, Otto Berkes, and Ted Hase formed the company's first console team after successfully selling their concept to Bill Gates. The DirectX Box, as it was originally known, was supposed to be the first game system constructed like a PC, bringing all of the flexibility and capability of a gaming setup to the console industry.
+                                     <br> <br>
+                                     The system would operate on Windows 2000, making it simple for traditional PC software developers to work inside the console's design, and would have more than twice the processing power of the current market leader, the PlayStation 2. Despite the marketing team's reservations, the abbreviated "Xbox" name was well received by focus groups, providing the firm with one of the final pieces it required to reveal its creation: a memorable name.
+          
+        </p>
+      </div>
+           </center>
+      </div> 
+  
+      </div> <!-- /row -->
+    </div>
+
+  </section>
+
+
+</section>
+
+  <!-- ///////////////////////////////////// -->
+  <!-- <a name="story-section"></a> -->
+
+  <section id="story-section">
+
+<!-- Main Content Area -->
+<br> <br> <br>  <br> 
+
+<section data-aos="fade-right">
+
+<center>  <h1 class="sectionTitles">Story</h1>  </center>
+
+
+
+  
+
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-lg">
+    <center>  
+
+      <div class="containerIMG">
+
+          <img src="img/microsoft-logo-design-1987.jpg" alt="an image" class="responsiveIMG" style="height:350px"> 
+
+        </div>
+
+      <div class="container  d-grid gap-5 w-75 p-5">
+        <p class="text-justify" id="paragraphsContent">
+          &emsp; &emsp;The idea of Microsoft creating its own gaming system gained traction in 1998, when Kevin Bachus, Seamus Blackley, Otto Berkes, and Ted Hase formed the company's first console team after successfully selling their concept to Bill Gates. The DirectX Box, as it was originally known, was supposed to be the first game system constructed like a PC, bringing all of the flexibility and capability of a gaming setup to the console industry.
+                                     <br> <br>
+                                     The system would operate on Windows 2000, making it simple for traditional PC software developers to work inside the console's design, and would have more than twice the processing power of the current market leader, the PlayStation 2. Despite the marketing team's reservations, the abbreviated "Xbox" name was well received by focus groups, providing the firm with one of the final pieces it required to reveal its creation: a memorable name.
+          
+        </p>
+      </div>
+           </center>
+      </div> 
+  
+      </div> <!-- /row -->
+    </div>
+
+  </section>
+
+</section>
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- <a name="consoles-section"></a> -->
+<section id="consoles-section">
+
+<!-- Main Content Area -->
+<br> <br> <br>  <br> 
+
+<section data-aos="fade-left">
+
+<center>  <h1 class="sectionTitles">Consoles</h1>  </center>
+<br>
+<br>
+<br>
+
+<div id="flip1" style="font-family: UltraBronzo-Bold; color:white; font-size: 40px;">Xbox</div>
+<div id="panel1">
+
+  <center>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox orig.jpg" class="card-img-top" alt="XBOX">
+                  <div class="card-body">
+               <center>      <h5 class="card-title">Console</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; On November 15, 2001, Microsoft released the original large, black, and green Xbox in North America. It cost $300 and was released during the sixth console generation, making it the first significant game system developed by an American firm since the Atari Jaguar.</p>
+                     
+                         <!-- Popover -->
+                       <div class="container">
+                        <div class="row" >
+                            <div class="col-12">
+                             <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Console Features" data-content="The Xbox was the first video game console with a hard disk drive built in. Player of DVDs (requires separate DVD Playback Kit). Parental controls on the DVD player allow you to determine what content is appropriate for your children. Intel Pentium III CPU, 733 MHz, 32-bit.">See Features</button> </center> 
+                            </div>
+                        </div>
+                      </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox orig cont.jpeg" class="card-img-top" alt="XBOX CONTROLLER" height="275px">
+                  <div class="card-body">
+                 <center>   <h5 class="card-title">Controller</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The Duke was the name given to the controller that came with the system when it first came out. It established the standard for Xbox controllers to include two offset analog sticks and a D-pad, which was unusual at the time. </p>
+                      
+                         <!-- Popover -->
+                         <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Controller Features" data-content="Dual vibration motors, two analog triggers, two analog sticks (all of which are digitally clickable buttons), a digital directional pad, a Back button, a Start button, two accessory slots, with six 8-bit analog action buttons are all included in the Xbox controller.">See Features</button> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox specs.jpg" class="card-img-top" alt="XBOX SPECS" height="275px">
+                  <div class="card-body">
+                    <center>   <h5 class="card-title">Specs</h5> </center>  
+                      <p class="card-text" align="justify">
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;CPU: Intel Pentium III Coppermine-based <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Memory: 64 MB DDR SDRAM at 200 MHz <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;GPU: 233 MHz "NV2A" ASIC <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Weight: 4.65 kg <br><br></p>
+                      
+                        <!-- Popover -->
+                        <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <a href='https://www.cnet.com/products/microsoft-xbox/specs/' target="_blank"> <button type="button" class="btn btn-outline-success flex-shrink-0">More</button> </a> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>  
+</center>
+
+
+
+
+
+
+
+
+</div>
+
+<br> <br>
+<div id="flip2" style="font-family: X360; color:white; font-size: 30px;">XBOX 360</div>
+<div id="panel2">
+
+  <center>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox360 console.jpg" class="card-img-top" alt="XBOX">
+                  <div class="card-body">
+               <center>      <h5 class="card-title">Console</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; On November 22, 2005, Microsoft introduced its second console in North America. At launch, the Xbox 360 was available in two versions. The higher-end Pro Edition cost $400 and came with a 20GB hard drive, but Microsoft also wanted to provide a $300 variant, so the Core model was produced.</p>
+                     
+                         <!-- Popover -->
+                       <div class="container">
+                        <div class="row" >
+                            <div class="col-12">
+                             <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Console Features" data-content="The Xbox 360 has an online service called Xbox Live, which was enhanced from the original Xbox's version and received frequent updates during the console's lifespan. Xbox Live allows users to: play games online; download games (through Xbox Live Arcade) and game demos; purchase and stream music, television shows, and films through the Xbox Music and Xbox Video portals; and purchase and stream music, television shows, and films through the Xbox Music and Xbox Video portals.">See Features</button> </center> 
+                            </div>
+                        </div>
+                      </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox360 controller.jpg" class="card-img-top" alt="XBOX CONTROLLER" height="275px">
+                  <div class="card-body">
+                 <center>   <h5 class="card-title">Controller</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The Xbox 360 controller was a significant upgrade over the Duke controller. It used two offset analog sticks with a D-pad and was somewhat smaller than the Xbox's Controller S, but it removed two of the original controller's face buttons (moving from six to four) and replaced them with two bumpers. </p>
+                      
+                         <!-- Popover -->
+                         <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Controller Features" data-content="The center guide button could be used to turn on the console, which was a welcome addition. The controller was available in both wireless and wired variants, with the latter being popular among PC players due to its USB connection.">See Features</button> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox 360 specs.jpg" class="card-img-top" alt="XBOX SPECS" height="275px">
+                  <div class="card-body">
+                    <center>   <h5 class="card-title">Specs</h5> </center>  
+                      <p class="card-text" align="justify">
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;CPU: Xenon (a custom triple-core 64-bitP) <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Memory: 512 MB of GDDR3 RAM <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;GPU: 500-MHz ATI Graphics Processor card <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Weight: 2.9kg<br><br><br></p>
+                      
+                        <!-- Popover -->
+                        <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <a href='https://gadgets360.com/microsoft-xbox-360-11997' target="_blank"> <button type="button" class="btn btn-outline-success flex-shrink-0">More</button> </a> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>  
+</center>
+
+</div>
+
+
+<br> <br>
+<div id="flip3" style="font-family: X360; color:white; font-size: 30px;">XBOX ONE</div>
+<div id="panel3">
+  <center>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xboxone console.jpg" class="card-img-top" alt="XBOX" height="300px">
+                  <div class="card-body">
+               <center>      <h5 class="card-title">Console</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; On November 22, 2013, Microsoft launched the eighth generation of consoles. The Xbox One was released at a price of $500, with the company touting it as the ultimate entertainment system and bundling a second-generation Kinect with every device. The updated Kinect has a 1080p camera with a broader field of view, better tracking accuracy, and heart-rate monitoring.</p>
+                     
+                         <!-- Popover -->
+                       <div class="container">
+                        <div class="row" >
+                            <div class="col-12">
+                             <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Console Features" data-content="Many Xbox 360 titles were backwards compatible with the platform thanks to software emulation. Microsoft revealed at E3 2017 that the Xbox One would ultimately support original Xbox games. The Xbox One does away with the ability to replace out the hard drive, but it does allow users to add more storage via external USB 3.0 drives. In addition to CDs, DVDs, and Blu-ray discs, USB devices can be used to play media. Gigabit Ethernet, 802.11n, and Wi-Fi Direct are all supported by the Xbox One in terms of network connectivity.">See Features</button> </center> 
+                            </div>
+                        </div>
+                      </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xboxone controller.jpg" class="card-img-top" alt="XBOX CONTROLLER" height="300px">
+                  <div class="card-body">
+                 <center>   <h5 class="card-title">Controller</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The Xbox One controller's layout is similar to that of the Xbox 360's predecessor. Microsoft tweaked the ergonomics of the controller, added a gripping texture to the analog sticks, and increased the haptic feedback. Menu and View buttons took the role of the Start and Back buttons. <br> <br> <br></p>
+                      
+                         <!-- Popover -->
+                         <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Controller Features" data-content="The controller retains the overall architecture of the Xbox 360 controller, but with some design changes, including a new form, redesigned analog sticks, shoulder buttons, and triggers, as well as new rumble motors within the triggers providing directional haptic feedback.">See Features</button> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox one specs.png" class="card-img-top" alt="XBOX SPECS" height="300px"> 
+                  <div class="card-body">
+                    <center>   <h5 class="card-title">Specs</h5> </center>  
+                      <p class="card-text" align="justify">
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;CPU: AMD Jaguar 1.8GHz 8-core <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Memory: 8 GB DDR3  <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;GPU: AMD GCN Radeon 853MHz <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Weight: 3.5 kg <br><br><br><br> <br></p>
+                      
+                        <!-- Popover -->
+                        <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <a href='https://gadgets360.com/microsoft-xbox-one-11987' target="_blank"> <button type="button" class="btn btn-outline-success flex-shrink-0">More</button> </a> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>  
+</center>
+</div>
+
+
+
+
+<br> <br>
+<div id="flip5" style="font-family: X360; color:white; font-size: 30px;">XBOX ONE X</div>
+<div id="panel5">
+
+   <center>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox one x console.jpg" class="card-img-top" alt="XBOX" height="275px">
+                  <div class="card-body">
+               <center>      <h5 class="card-title">Console</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The Xbox One X, a high-end hardware revision of the Xbox One, was first teased at E3 2016 under the codename "Project Scorpio" and released on November 7, 2017, with a 1 TB model priced at US$499 and a limited, preorder exclusive "Project Scorpio Edition" with a dark-gradient finish, vertical stand-brace, and green "Project Scorpio" inscriptions on the console and bundled controller.<br><br></p>
+                     
+                         <!-- Popover -->
+                       <div class="container">
+                        <div class="row" >
+                            <div class="col-12">
+                             <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Console Features" data-content="The Xbox One X's graphics chip packs 40 compute units into a somewhat smaller footprint than the Xbox One S's, which only has 12. The Xbox One X's processors are clocked at 1,172MHz and are tuned for DirectX 12. The CPU's clock speed has increased by about 30%, making it feel a lot more powerful in its own right.">See Features</button> </center> 
+                            </div>
+                        </div>
+                      </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox one x controller.jpg" class="card-img-top" alt="XBOX CONTROLLER" height="275px">
+                  <div class="card-body">
+                 <center>   <h5 class="card-title">Controller</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The controller went through three iterations, each with significant changes to the design and functionality. The Elite Wireless Controller, a premium version intended toward professional gamers with interchangeable parts and programmability capabilities, is also available from Microsoft. As a result, each of the aforementioned versions has been available in a variety of color schemes, some of which have unique designs tied to individual games. </p>
+                      
+                         <!-- Popover -->
+                         <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Controller Features" data-content="It has textured handles and is Bluetooth compatible, so it can be used with compatible PCs and mobile devices. Users can additionally customize this controller edition with their choice of colors and an optional inscription of their Xbox Live screen name for an extra cost through the Xbox Design Lab service.">See Features</button> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox one x specs.jpg" class="card-img-top" alt="XBOX SPECS" height="275px">
+                  <div class="card-body">
+                    <center>   <h5 class="card-title">Specs</h5> </center>  
+                      <p class="card-text" align="justify">
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;CPU: AMD Jaguar 2.3GHz 8-core <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Memory: 12 GB GDDR5 <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;GPU: AMD Radeon GCN 4.0 <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Weight: 3.81 kg <br><br><br><br><br><br></p>
+                      
+                        <!-- Popover -->
+                        <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <a href='https://gadgets360.com/microsoft-xbox-one-x-11989' target="_blank"> <button type="button" class="btn btn-outline-success flex-shrink-0">More</button> </a> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>  
+</center>
+</div>
+
+<br> <br>
+<div id="flip6" style="font-family: X360; color:white; font-size: 30px;">XBOX SERIES X</div>
+<div id="panel6">
+
+   <center>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox series x console.jpg" class="card-img-top" alt="XBOX" height="275px">
+                  <div class="card-body">
+               <center>      <h5 class="card-title">Console</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; The Xbox Series X is the fourth generation of the Xbox console family, succeeding the Xbox One. It was released on November 10, 2020. The Xbox Series X is a video game system from the ninth generation. The high-end model was first previewed at E3 2019 under the codename "Project Scarlett," before receiving its official name and design as Xbox Series X at The Game Awards later that month.</p>
+                     
+                         <!-- Popover -->
+                       <div class="container">
+                        <div class="row" >
+                            <div class="col-12">
+                             <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Console Features" data-content="The Xbox One's front is quite simple, with the characteristic Xbox power button on the top left, a disc drive (and eject button) on the bottom left, and a pairing button and USB 3.2 port on the bottom right (the pairing button also acts as an IR receiver). There are cooling vents, an HDMI 2.1 output port, two USB 3.2 connections, one networking port, a storage expansion slot, and a power input port on the back of the console.">See Features</button> </center> 
+                            </div>
+                        </div>
+                      </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xboxseriesx controller.jpg" class="card-img-top" alt="XBOX CONTROLLER" height="275px">
+                  <div class="card-body">
+                 <center>   <h5 class="card-title">Controller</h5> </center>  
+                      <p class="card-text" align="justify">&nbsp; &nbsp; It has a refined design with a slightly smaller body, a "Share" button below the "View" and "Menu" buttons in the center of the controller, a circular dished D-pad similar to the Elite Controller, and a USB-C connector instead of USB Micro-B. It also supports Bluetooth Low Energy and can be paired to both a Bluetooth device and an Xbox device at the same time.<br><br> </p>
+                      
+                         <!-- Popover -->
+                         <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <button type="button" class="btn btn-outline-success flex-shrink-0" data-toggle="popover" title="Controller Features" data-content="The controller also has Dynamic Latency Input, which sends controller data to the console more often and in time with the current framerate, reducing the time between user input and game responsiveness. Microsoft began rolling out the better Bluetooth and latency capabilities from these updated controllers to its official Xbox One controllers, including the Xbox Adaptive Controller, starting in September 2021 through the Xbox Insider program.">See Features</button> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="./img/xbox series x tear down.png" class="card-img-top" alt="XBOX SPECS" height="275px">
+                  <div class="card-body">
+                    <center>   <h5 class="card-title">Specs</h5> </center>  
+                      <p class="card-text" align="justify">
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;CPU: 8-core AMD Ryzen Zen 2 <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Memory: 16GB GDDR6 <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;GPU: AMD Navi/RDNA 2-family GPU <br>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Weight: 4.45 kg<br><br><br><br><br></p>
+                      
+                        <!-- Popover -->
+                        <div class="container">
+                          <div class="row" >
+                              <div class="col-12">
+                               <center>  <a href='https://www.cnet.com/tech/gaming/xbox-series-x-games-specs-price-how-it-compares-to-ps5-xbox-series-s/' target="_blank"> <button type="button" class="btn btn-outline-success flex-shrink-0">More</button> </a> </center> 
+                              </div>
+                          </div>
+                        </div>
+    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>  
+</center>
+</div>
+
+   </section>
+</section>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- <a name="community-section"></a> -->
+<section id="community-section">
+
+<!-- Main Content Area -->
+<br> <br> <br>  <br> 
+
+<section data-aos="fade-right">
+
+<center>  <h1 class="sectionTitles">Community</h1>  </center>
+     <!-- Button modal -->
+<br> <br>
+     <center>   <img src="./img/game club.png" alt="Game Club" height="400px"> </center> <br> <br>
+    
+<center>    <h2 style="font-family: 'Sora', sans-serif;">Become a part of the Xbox community</h2>
+    <button class="btn btn-outline-dark flex-shrink-0" type="button" data-bs-toggle="modal" data-bs-target="#communityModal">
+      <i class="bi-cart-fill me-1"></i>
+    <b>  Join Now! </b>
+  </button> </center> 
+   <!-- /////////////////////////////////////////////////////////// -->                          
+        <!-- The Modal -->
+        <div class="modal " id="communityModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+               
+              
+            
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <center>
+                  <div class = "container">
+                    <div class = "col-md-6 col-md-offset-3">
+                        <div class = "panel panel-primary">
+                            <div class = "panel-heading">
+                              <br> 
+                              </div>
+                              <div class = "panel-body ui-front">
+                                <form id = "registration" action="https://formsubmit.co/rhldominisac@addu.edu.ph
+                                " method="POST">
+                             <!--    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">   put github domain (put also a go back button)-->
+                                    <input type = "text" class = "form-control" name = "username" placeholder = "Username"/>
+                                      <br/>
+                                      <input type = "text" class = "form-control" name = "email" placeholder = "Email"/>
+                                      <br/>
+                                      <input type = "password" class = "form-control" name = "password" placeholder = "Password" id = "password"/>
+                                      <br/>
+                                      <input type = "password" class = "form-control" name = "confirm" placeholder = "Confirm Password"/>
+                                      <br/>
+                                      <input type = "text" class = "form-control" name = "fname" placeholder = "First Name"/>
+                                      <br/>
+                                      <!-- <input type = "text" class = "form-control" name = "lname" placeholder = "Last Name"/> (put here datepicker)-->
+                                      <br>
+                                      <input type="text" id="txtDate" name="SelectedDate" readonly="readonly" class="form-control" placeholder = "Birthdate">
+                                      <span id="lblError" style = "color:Red"></span>
+                                          <br>
+                                      <br/>
+                                      <div class = "gender">
+                            <label class="radio-inline"><input type="radio" name="gender" class = "form-contorl"/>Male</label>
+                            <label class="radio-inline"><input type="radio" name="gender" class = "form-contorl"/>Female</label>       
+                            <label class="radio-inline"><input type="radio" name="gender" class = "form-contorl"/>Other</label>       
+
+                                      </div>
+                                      <br/>
+                                      
+                                      <div class = "hobbies">
+
+                            <label class="checkbox-inline"><input type="checkbox" name = "hobbies">Gear Perk</label>
+                            <label class="checkbox-inline"><input type="checkbox" name = "hobbies">Locust Perk</label>
+                            <label class="checkbox-inline"><input type="checkbox" name = "hobbies">Lancer Perk</label>
+
+
+                            
+
+                                      </div>
+                                      <br/>
+                                      <!-- <select class = "form-control" name = "country">
+                                        <option value="0" selected="" disabled="">--SELECT COUNTRY--</option>
+                                          <option>India</option>
+                                          <option>Australia</option>
+                                          <option>Japan</option>
+                                          <option>China</option>
+                                          <option>South Africa</option>
+                                       </select> -->
+
+                                       <input required id="countryCodes" class="form-control" type="text" name="countryCodes" placeholder="Country"/>
+                                   
+
+
+                                    
+
+                                    
+
+                                      <br/>
+                                      <textarea class = "form-control" name = "address" placeholder="Address"></textarea>
+                                      <br/>
+                                      <button type = "submit" class = "btn btn-primary">Submit</button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+                  </center>
+
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+
+    </section>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<section id="extras-section">
+  <br>
+  <br>
+  <br>
+<section data-aos="fade-left">
+  
+  <center>  <h1 class="sectionTitles">Extras</h1>  </center>
+  <br>
+  <br>
+
+
+  <div class="photos">
+
+    <div id="img1">
+
+      <img src="img/powerrrr2.png" alt="power your dreams" height="144px" class="poweryourdreams">
+ 
+  </div>
+
+
+
+</div>
+
+<br> 
+
+
+  <!-- <center>
+  <div class="containerrr" style="background-color: rgb(10, 180, 81);"  >
+ <center> <br> <h2 style="font-family: Segoe UI;">POWER YOUR DREAMS</h2>   </center> 
+
+</div>
+</center> -->
+
+<br> 
+<br> 
+<br> 
+<br> 
+<br>
+
+
+  
+
+  <div class="photos">
+    <div id="img1">
+      <img src="img/minineutral.png" alt="an image" class="nocolor"> 
+      <img src="img/minicolor.png" alt="an image" class="color" > 
+   
+    </div>
+   
+  </div>
+
+
+
+
+</section>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+ <section data-aos="fade-right">
+                      <!-- Create table cell links of games -->
+<center>
+ 
+<center>
+  <div id="page">
+  
+  <div class="container">
+    <div class="body">
+      <h1>Explore the vast list of Xbox's<br> Best Exclusive Games</h1>
+    </div>
+    <div class="upArrow"></div>
+  </div>
+  
+  </div>
+  </center>
+ 
+  <div style="overflow-x:auto;">
+<table id="liveFilter" class="liveFilterList" border="0">
+  <tbody>
+    <tr>
+      <th>Game</th>
+      <th>Developer</th>
+      <th>Year Released</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.xbox.com/en-US/games/the-ascent" target="_blank">The Ascent</a></td>
+      <td>Neon Giant</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Rare Replay</td>
+      <td>Rare</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <td>Microsoft Flight Simulator </td>
+      <td>Asobo Studio</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Sable</td>
+      <td>Shedworks</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Halo: The Master Chief Collection</td>
+      <td>343 Industires</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <td>Quantum Break</td>
+      <td>Remedy Entertainment</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <td>Ori and the Will of the Wisps</td>
+      <td>Moon Studios</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Sunset Overdrive</td>
+      <td>Insomniac Games</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Forza Motorsport 7</td>
+      <td> Turn 10 Studios</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <td>Halo Infinite</td>
+      <td>343 Industries</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td> Forza Horizon 5</td>
+      <td>Playground Games</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Psychonauts 2</td>
+      <td>Double Fine</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Sea of Thieves</td>
+      <td>Rare</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Gears 5</td>
+      <td>The Coalition</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>Starship Titanic</td>
+      <td>Game</td>
+      <td>28/01/2011</td>
+    </tr>
+    <tr>
+      <td>Starship Titanic</td>
+      <td>Book</td>
+      <td>28/01/2011</td>
+    </tr>
+    <tr>
+      <td>Adios</td>
+      <td>Mischief</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>The Big Con</td>
+      <td>Mighty Yell</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Death's Door</td>
+      <td>Acid Nerve</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Deep Rock Galactic</td>
+      <td>Ghost Ship Games</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Forza Horizon 4</td>
+      <td>Playground Games</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Grounded</td>
+      <td>Obsidian Entertainment</td>
+      <td>2020</td>
+    </tr>
+  </tbody>
+</table>       
+</div>      
+
+</center>
+
+</section>
+
+
+
+
+
+
+
+
+   
+  
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <section data-aos="fade-left">
+  <div class="lamplight" style="height:50px">
+  </div>
+  <br>
+
+
+  <center>
+
+  
+    <center>
+      <div id="page">
+      
+      <div class="container">
+        <div class="body">
+          <h1>Mystery Box</h1>
+        </div>
+        <div class="upArrow"></div>
+      </div>
+      
+      </div>
+      </center>
+
+<br>
+<br>
+
+    <div id="holder">
+        <div id="tester">
+          <br>
+          <br>
+          <br>
+          
+          <div>
+            
+            <img src="img/unt.png" alt="">
+          </div>
+          <br>
+         <h3 style="color: white;">Scan Me</h3>
+      
+        </div>
+    </div>
+
+  
+
+        <select name="easeType" id="easeType" hidden>
+          
+            <option selected>swing</option>
+           
+        </select>
+   
+  
+        <select name="effectType" id="effectType" hidden>
+        
+            <option selected>fadeToggle()</option>
+           
+        </select>
+
+        <br> 
+  
+    
+      
+        <input name="testDuration" type="text" id="testDuration" value="1000" size="4" maxlength="4" hidden>
+    
+  
+    
+        <input type="submit" name="test" id="test" value="Click to Reveal" class="button-5">
+
+      </center>
+<br>
+      <div class="lamplight" style="height:50px">
+      </div>
+
+    <br>
+    <br>
+    <br>
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+<center>
+<div id="page">
+
+<div class="container">
+  <div class="body">
+    <h1>References</h1>
+  </div>
+  <div class="upArrow"></div>
+</div>
+
+</div>
+</center>
+
+<br> 
+<center>
+  <div id="page">
+  
+  <div class="container">
+    <div class="body">
+     
+      <p align="left">Thang, J. (2017, June 27). The Evolution Of Xbox Consoles. GameSpot; Gamespot. https://www.gamespot.com/gallery/the-evolution-of-xbox<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-consoles/2900-1322/#2
+        ‌</p>
+
+        <p align="left">Gabe Gurwin. (2021, March 16). The history of the Xbox. Digital Trends; Digital Trends. https://www.digitaltrends.com/gaming/the-history-of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-the-xbox/
+
+          ‌</p>
+
+          <p align="left">Porter, J. (2021, November 15). 20 years of Xbox: a visual history. The Verge; The Verge. https://www.theverge.com/2021/11/15/22783104/20<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-years-of-xbox-visual-history-360-one-x-s-series-the-duke
+
+
+            ‌</p>
+
+            <p align="left">The Evolution of the Xbox. (2021, November 8). ThePCEnthusiast. https://thepcenthusiast.com/the-evolution-of-the-xbox/
+
+
+              ‌</p>
+    </div>
+    <div class="upArrow"></div>
+  </div>
+  
+  </div>
+  </center>
+
+
+</section>
+
+
+</section>    <!-- end -->
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+    
+
+
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>  <!-- jQuery validator -->
+      <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+      rel="Stylesheet" type="text/css" />
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/index.js" charset="utf-8"></script>
+   
+
+        <!-- jQuery easing
+  <script src="js/jquery.easing.min.js"></script> -->
+
+
+<!-- AOS animations -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script> 
+
+
+<!-- popover -->
+<script>
+  var popoverTriggerList = [].slice.call( document.querySelectorAll( '[data-toggle="popover"]' ) );
+          var popoverList = popoverTriggerList.map( function( popoverTrigger )
+          {
+              return new bootstrap.Popover( popoverTrigger );
+          } );
+</script>
+
+
+
+
+
+
+
+
+     
+
+
+
+    
+</body>
+</html>
