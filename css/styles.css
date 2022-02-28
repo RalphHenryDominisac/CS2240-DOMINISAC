@@ -14,16 +14,16 @@
 /* Original Xbox font */
 @font-face{
 	font-family: "UltraBronzo-Bold";
-	src: url("/fonts/UltraBronzo-Bold.otf") format('opentype');
-	color: white;
+	src: url('fonts/UltraBronzo-Bold.otf') format('opentype');
+	/* color: white; */
 	
 }
 
 /* Xbox 360 and Xbox one font */
 @font-face{
 	font-family: "X360";
-	src: url("/fonts/X360.ttf") format('truetype');
-	color: white;
+	src: url('fonts/X360.ttf') format('truetype');
+	/* color: white; */
 	
 }
 
